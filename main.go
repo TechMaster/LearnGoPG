@@ -9,10 +9,9 @@ func main() {
 	if err := ConnectDB(); err != nil {
 		fmt.Println(err)
 	}
-	// Viet code o day nhe!
 
 	InitSchema()
 	SaveData()
-
+	SelelectPostByID(1)
 	defer Db.Close()
 }
