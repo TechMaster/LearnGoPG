@@ -13,7 +13,7 @@ func main() {
 	InitSchema()
 	SaveData()
 
-	SelectPostByID(1)
+	// SelectPostByID(1)
 	SelectPostByAuthor(1)
 	defer Db.Close()
 }

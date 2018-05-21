@@ -7,7 +7,6 @@ import (
 )
 
 type Post struct {
-	tableName struct{} `sql:"blog.posts"`
 	Id int //Primary key
 	Content string
 	AuthorID int  //Foreign key trỏ từ bảng User.Id
@@ -15,7 +14,6 @@ type Post struct {
 }
 
 type User struct {
-	tableName struct{} `sql:"auth.users"`
 	Id int
 	Name string
 }
