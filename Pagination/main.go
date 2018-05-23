@@ -15,7 +15,7 @@ func main() {
 
     SaveData()
 
-    MappingPersonToPhone()
+    LimitOffset()
 
     defer Db.Close()
 }
