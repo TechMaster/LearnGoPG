@@ -17,3 +17,9 @@
     Group("student_id").
     Select(&queryResults)
 ```
+Cú pháp SQL tương ứng:
+```SQL
+Select student_id, count(number) as phone_count
+from students
+Group by student_id
+```

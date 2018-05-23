@@ -4,7 +4,7 @@ import (
 	"log"
 )
 
-func MappingPersonToPhone() {
+func SubQuery() {
 	var phones []Phone
 	var sum struct {
 		Total int

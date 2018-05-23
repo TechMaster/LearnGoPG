@@ -15,7 +15,11 @@ func main() {
 
     SaveData()
 
-    SubQuery()
+    // Update()
+
+    // MultiUpdate()
+
+    MultiUpdateSlice()
 
     defer Db.Close()
 }
